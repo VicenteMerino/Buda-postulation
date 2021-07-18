@@ -87,3 +87,30 @@ Dado que  el output es muy grande, es posible mandarlo a un archivo `.txt`:
 ./run_all_metro.sh > output_metro.txt
 ./run_all_metro_buda.sh > output_metro_buda.txt
 ```
+
+## Linter y formatter
+
+Se utilizó el formatter `black` con largo máximo largo de 80 carácteres por línea y el linter `flake8`, con la misma cantidad. Para instalarlos, correr:
+
+```
+pip install black
+pip install flake8
+```
+
+o bien
+
+```
+pip install -r requirements.txt
+```
+
+Para formatear un archivo correr:
+
+```
+black --line-length 80 <python file path>
+```
+
+Para lintear un archivo correr:
+
+```
+flake8 --max-line-length 80 <python file path>
+```
