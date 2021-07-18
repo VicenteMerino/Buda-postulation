@@ -1,9 +1,9 @@
-# Postulación a Buda.com - Vicente Merino
+# Postulación a [Buda.com](https://www.buda.com/chile) - Vicente Merino
 
 ## Prerequisitos
 
 Instalar [python 3](https://www.python.org/downloads/) o superior
-Es necesario instalar pytest (usar [virtualenv](https://virtualenv.pypa.io/en/latest/) es recomendable):
+Es necesario instalar pytest (usar [virtualenv](https://virtualenv.pypa.io/en/latest/) es recomendable). Luego instalar la librería `pytest`:
 
 ```
 pip install pytest
