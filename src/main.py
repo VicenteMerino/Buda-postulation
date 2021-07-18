@@ -1,7 +1,7 @@
 from sys import argv
 import os
 import json
-from metro import Metro
+from metro.metro import Metro
 
 if __name__ == "__main__":
     if len(argv) < 4 or len(argv) > 5:
@@ -63,7 +63,8 @@ if __name__ == "__main__":
 
     if are_connected:
         print(
-            f"The shortest path is:\n{'->'.join(path)}\nWith length: {path_length}"
+            "The shortest path is:\n"
+            f"{'->'.join(path)}\nWith length: {path_length}"
         )
     else:
         print(f"The nodes are not connected because of: '{path}'")
